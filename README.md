@@ -2,7 +2,7 @@ gh-pages content from master
 ===
 
 
-# Setup
+## Setup
 
 Create your master branch:
 
@@ -20,7 +20,7 @@ Now create gh-pages branch
     git read-tree --prefix=_includes/ -u master
     git commit -m "Master merged into gh-pages as subtree"
 
-# Maintenance
+## Maintenance
 
 Work on your master branch as normal.  Commit changes.  When ready to push:
 
